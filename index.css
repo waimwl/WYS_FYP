@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', 'Noto Sans HK', sans-serif;
+  background-color: #f3f4f6;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Safe area padding for iPhones with notches */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
